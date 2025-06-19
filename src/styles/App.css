@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.App-header h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.8em;
+  color: #00e676;
+  text-shadow: 0 0 10px rgba(0, 230, 118, 0.4);
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.main-content-wrapper {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
